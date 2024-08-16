@@ -1,2 +1,2 @@
 # statins_osteonecrosis
-Code for statin and osteonecrosis
+R code for statin and osteonecrosis
