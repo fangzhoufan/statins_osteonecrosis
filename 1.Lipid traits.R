@@ -9,6 +9,7 @@ ao5<-ao%>%
 ao6<-ao%>%
   subset(grepl('26343387',pmid,ignore.case = TRUE))
 
+#osteonecrosisk
 out<-fread("~/R/GWASR9FINNGEN/finngen_R9_M13_OSTEONECROSIS.gz",header = T)#读取本地结局（这里将文件名换成你自己本地结局的文件名）
 out$trait <- 'Osteonecrosis'
 head(out)
@@ -40,7 +41,7 @@ outcomedata<-function(Lipid_trait,outcomeid){
 }
 
 
-# 1.Lipid traits and Rotator cuff syndrome risk####
+# 1.Lipid traits and osteonecrosisk####
 
 #脂质指标
 LDLC<-extract_instruments(outcome="ieu-a-300")
